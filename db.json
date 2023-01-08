@@ -1,0 +1,86 @@
+{
+    "recipes": [
+      {
+        "ingredients": [
+          {
+            "quantity": "3 cup",
+            "ingredient": "Toor dal"
+          },
+          {
+            "quantity": "3 cup",
+            "ingredient": "Rawa"
+          },
+          {
+            "quantity": "1 cup",
+            "ingredient": "Water"
+          },
+          {
+            "quantity": "1.5 cup",
+            "ingredient": "Curd"
+          }
+        ],
+        "name": "Idly sambhar",
+        "author": "Preeti",
+        "countryFlagurl": "https://flagcdn.com/in.svg",
+        "description": "This is a famous south Indian dish. It is served with various chutney.",
+        "image": "https://foodhistoria.com/wp-content/uploads/2020/09/Ghee-Sambar-Idli-5-e1600157946772.jpg",
+        "instructions": "Soak rawa with water and curd, mix well and leave it for 30 mins.\nMeanwhile use dal to prepare sambhar. Mix vegetables, tomoto, onion, ginger, and dry red chilli. \n\nYou can also prepare green chutney.\n\nEnjoy!",
+        "id": 1
+      },
+      {
+        "id": 2,
+        "name": "Paella",
+        "author": "Juan Perez",
+        "countryFlagurl": "https://flagcdn.com/sn.svg",
+        "description": "Paella is a traditional Spanish rice dish that is commonly made with a variety of ingredients, including seafood, chicken, and vegetables.",
+        "image": "https://www.acouplecooks.com/wp-content/uploads/2020/07/Paella-Recipe-014.jpg",
+        "instructions": "xyz",
+        "ingredients": [
+          {
+            "quantity": "1cup",
+            "ingredient": "peas"
+          },
+          {
+            "quantity": "2 cube",
+            "ingredient": "paneer"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Köttbullar (Swedish Meatballs)",
+        "author": "Lena Svensson",
+        "countryFlagurl": "https://flagcdn.com/se.svg",
+        "description": "Köttbullar are a traditional Swedish dish typically served with gravy, mashed potatoes, and lingonberry jam. They make a delicious and comforting meal.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/17-06-09-IKEA-K%C3%B6ttbullar-RalfR-IMG_20170609_182055_928a.jpg/1200px-17-06-09-IKEA-K%C3%B6ttbullar-RalfR-IMG_20170609_182055_928a.jpg",
+        "instructions": "xyz",
+        "ingredients": [
+          {
+            "quantity": "1cup",
+            "ingredient": "peas"
+          },
+          {
+            "quantity": "2 cube",
+            "ingredient": "paneer"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Bigos (Polish Hunter's Stew)",
+        "author": "Kasia Nowak",
+        "countryFlagurl": "https://flagcdn.com/pl.svg",
+        "description": "Bigos is a traditional Polish stew that is often referred to as the 'Hunter's Stew' because it is made with a variety of meats, including sausage and game. It is a hearty and flavorful dish that is perfect for cold weather.",
+        "image": "https://assets.bonappetit.com/photos/5bc65895c5a9942d0858718d/5:4/w_3515,h_2812,c_limit/bigos-1.jpg",
+        "instructions": "xyz",
+        "ingredients": [
+          {
+            "quantity": "1cup",
+            "ingredient": "peas"
+          },
+          {
+            "quantity": "2 cube",
+            "ingredient": "paneer"
+          }
+        ]
+      }]}

@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(179, 223, 240);
+}
+.addnewrecipie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form {
+    margin: 20px 0 20px;
+}
+
+.m_5 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.form_label{
+    margin-bottom: 10px;
+}
+
+.form_input,.ingredient_ingredient{
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.ingredient_button,.ingredient_button_btn ,.form_button{
+    margin-top: 20px;
+
+}

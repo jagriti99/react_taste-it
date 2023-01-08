@@ -1,0 +1,39 @@
+.nav {
+    background-color: gray;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 10.5vh;
+    width: 5vw;
+}
+
+.logo img {
+    background: url("https://static.wixstatic.com/media/11062b_0b2228ef1a724743bdd1dc7e3b142d28~mv2.jpeg/v1/fill/w_560,h_374,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Hot%20Food.jpeg");
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.4;
+}
+
+.nav ul li a:active {
+    color: rgb(127, 126, 124);
+    text-decoration: underline;
+}
+
+.nav ul li a:hover {
+    color: rgb(88, 87, 86);
+    text-decoration: underline;
+}
