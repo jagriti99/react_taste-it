@@ -7,14 +7,14 @@ import classes from './Home.module.css'
 const Home = () => {
     return (
         <div>
-            <div className={classes.image}></div>
-            
+
+<h2>Want to try something new?</h2>
             <div className={classes.heropanel_content}>
                 <h1>Taste-It</h1>
-                <p>Explore and add recipes</p>
-                <button><NavLink to="/recipes">Browse recipes</NavLink></button>
+                <p>Explore and add recipes</p>     
             </div>
-            <h2>Want to try something new?</h2>
+            <button className={classes.btn}> 
+                <NavLink to="Recipes">Browse Recipes</NavLink></button>   
             <div className={classes.buttons}>
                 <Button
                     title="Browse Recipes"

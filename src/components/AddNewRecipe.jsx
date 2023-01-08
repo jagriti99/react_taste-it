@@ -43,7 +43,7 @@ const Addnewrecipie = () => {
         <fieldset>
           <legend>Add new recipe</legend>
           <div className={classes.m_5}>
-            <label for="name" className={classes.form_label}>
+            <label htmlFor="name" className={classes.form_label}>
               {" "}
               Name{" "}
             </label>
@@ -58,7 +58,7 @@ const Addnewrecipie = () => {
           </div>
 
           <div className={classes.m_5}>
-            <label for="author" className={classes.form_label}>
+            <label htmlFor="author" className={classes.form_label}>
               {" "}
               Author{" "}
             </label>
@@ -73,7 +73,7 @@ const Addnewrecipie = () => {
           </div>
 
           <div className={classes.m_5}>
-            <label for="country" className={classes.form_label}>
+            <label htmlFor="country" className={classes.form_label}>
               {" "}
               Recipe is from:{" "}
             </label>
@@ -91,7 +91,7 @@ const Addnewrecipie = () => {
           </div>
 
           <div className={classes.m_5}>
-            <label for="description" className={classes.form_label}>
+            <label htmlFor="description" className={classes.form_label}>
               {" "}
               Description{" "}
             </label>
@@ -105,7 +105,7 @@ const Addnewrecipie = () => {
           </div>
 
           <div className={classes.m_5}>
-            <label for="image" className={classes.form_label}>
+            <label htmlFor="image" className={classes.form_label}>
               {" "}
               Image{" "}
             </label>
@@ -120,15 +120,14 @@ const Addnewrecipie = () => {
           </div>
 
           <div className={classes.m_5}>
-            <label className={classes.form_label}> Ingredients </label>
+            <label className={classes.form_label} htmlFor="Ingredients"> </label>
             {fields.map((item, index) => {
               return (
                 <div key={item.id} className={classes.ingredient}>
                   <div className={classes.ingredient_quantity}>
                     <label
                       htmlFor={`quantity-${item.id}`}
-                      className={classes.form_label}
-                    >
+                      className={classes.form_label}>
                       {" "}
                       Quantity{" "}
                     </label>
@@ -177,10 +176,7 @@ const Addnewrecipie = () => {
                 className={classes.ingredient_button_btn}
                 onClick={() => {
                   append({ quantity: "", ingredient: "" });
-                }}
-              >
-                Add more
-              </button>
+                }}>Add more</button>
             </section>
           </div>
 

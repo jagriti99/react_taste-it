@@ -1,8 +1,11 @@
 .button {
-    border: 1px solid gray;
+    border: 1px solid rgb(237, 77, 77);
     width: 30vw;
     height: 22vh;
     min-height: 22vh;
+    margin-top: 35vh;
+    border-radius: 5px;
+    border-width: 2px;
 }
 
 .button h3,

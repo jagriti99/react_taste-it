@@ -82,5 +82,50 @@
             "quantity": "2 cube",
             "ingredient": "paneer"
           }
+        ]},
+          
+        
+        {
+            "id": 5,
+        "name": "Pancakes",
+        "author": "Abc",
+        "countryFlagurl": "https://flagcdn.com/w320/pe.png",
+        "description": "Yummy breakfast",
+        "image": "https://www.allrecipes.com/thmb/JcYuH_eletuQ22rxRC8aNj3oSd8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/45396-easy-pancakes-mfs-36-b720f5b89f854d01b9d0e92661fa4c2d.jpg",
+        "instructions": "mix it",
+        "ingredients": [
+          {
+            "quantity": "1cup",
+            "ingredient": "flour"
+          },
+          {
+            "quantity": "1 cube",
+            "ingredient": "milk"
+          }
+        
         ]
-      }]}
+      },
+      {
+        "id": 6,
+    "name": "ShahiPaneer",
+    "author": "Abc",
+    "countryFlagurl": "https://flagcdn.com/in.svg",
+    "description": "Yummy breakfast",
+    "image": "https://static.toiimg.com/thumb/52446409.cms?width=1200&height=900",
+    "instructions": "chopped tomatoes. Heat the pan. Add cumin then add tomotoes.Add species.",
+    "ingredients": [
+      {
+        "quantity": "1cup",
+        "ingredient": "tomatoes"
+      },
+      {
+        "quantity": "6 cubes",
+        "ingredient": "panner"
+      }
+    
+    ]
+  }
+      
+      
+      
+      ]}

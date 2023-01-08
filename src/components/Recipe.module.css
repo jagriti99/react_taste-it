@@ -1,0 +1,7 @@
+.flag {
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    height: 50px;
+    clip-path: circle();
+  }
