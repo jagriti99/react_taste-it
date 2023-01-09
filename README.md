@@ -1,4 +1,4 @@
-![MyImage](myimage.jpg)
+![MyImage](myimage.png)
 
 # Taste-It
 
@@ -6,11 +6,11 @@ An app to browse and add receipes.
 
 ## Techology used
 
-React
-Json server
-React hook form
-Axios
-React Router Dom
+-React
+-Json server
+-React hook form
+-Axios
+-React Router Dom
 
 ## How to run
 
