@@ -21,7 +21,7 @@ const Addnewrecipie = () => {
   const onSubmit = (d) => {
     alert(JSON.stringify(d));
     axios.post("http://localhost:3001/recipes", d).then((res) => {
-      console.log("this is first post request with json server", res);
+     
     });
   };
 
