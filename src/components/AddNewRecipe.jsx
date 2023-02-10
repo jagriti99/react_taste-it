@@ -4,10 +4,12 @@ import { useState, useEffect } from "react";
 import { useForm, useFieldArray } from "react-hook-form";
 import classes from "./AddNewRecipe.module.css";
 
+import classnames from "classnames";
+
 const Addnewrecipie = () => {
   const [countries, setCountries] = useState([]);
 
-  const { register, control, handleSubmit } = useForm({
+  const { register, control, handleSubmit,formState:{errors} } = useForm({
     defaultValues: {
       ingredients: [{ quantity: "", ingredient: "" }],
     },
@@ -19,7 +21,7 @@ const Addnewrecipie = () => {
   });
 
   const onSubmit = (d) => {
-    alert(JSON.stringify(d));
+    alert("Your recipe is added");
     axios.post("http://localhost:3001/recipes", d).then((res) => {
      
     });
@@ -52,7 +54,9 @@ const Addnewrecipie = () => {
               name="name"
               id="name"
               placeholder="Recipe Name"
-              className={classes.form_input}
+              className={classnames(classes.form_input,
+                errors.author && errors.author.type ==="required"? classes.form_error:"")}
+              {...register("author",{required:true,})}
               {...register("name")}
             />
           </div>
@@ -85,7 +89,7 @@ const Addnewrecipie = () => {
             >
               <option value="">--select country--</option>
               {countries.map((country) => (
-                <option value={country.flagurl}>{country.name}</option>
+                <option value={country.flagurl} key={country.name}>{country.name}</option>
               ))}
             </select>
           </div>

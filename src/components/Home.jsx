@@ -1,42 +1,47 @@
-import React from 'react';
-import Button from './Button';
-import { NavLink } from 'react-router-dom';
-import classes from './Home.module.css'
+import React from "react";
 
+import { NavLink } from "react-router-dom";
+import classes from "./Home.module.css";
+import food from "./Images/food.mp4";
 
 const Home = () => {
-    return (
-        <div>
+  return (
+    <div className={classes.video_container}>
+      <video className={classes.video} autoPlay loop muted>
+        <source src={food} type="video/mp4"></source>
+      </video>
+      <div className={classes.heading}>
+        <h2>Want to try something new?</h2>
+        <h1>Taste-It</h1>
+        <p>Explore and add recipes</p>
+        <button className={classes.btn}>
+          <NavLink to="Recipes">Browse Recipes</NavLink>
+        </button>
+      </div>
 
-<h2>Want to try something new?</h2>
-            <div className={classes.heropanel_content}>
-                <h1>Taste-It</h1>
-                <p>Explore and add recipes</p>     
-            </div>
-            <button className={classes.btn}> 
-                <NavLink to="Recipes">Browse Recipes</NavLink></button>   
-            <div className={classes.buttons}>
-                <Button
-                    title="Browse Recipes"
-                    description="Search recipes by name or country."
-                    linkText="All recipes"
-                    link="/recipes"
-                />
-                <Button
-                    title="Add recipes"
-                    description="Want to add your own recipe? No worries, add on!"
-                    linkText="Add a recipe"
-                    link="/addNewRecipe"
-                />
-                <Button
-                    title="Know more about the projects?"
-                    description="Visit our programme homepage."
-                    linkText="Business College Helsinki hompage"
-                    link="https://www.bc.fi/"
-                />
-            </div>
+      <div className={classes.container}>
+        <div className={classes.moreDetails}>
+          <h3>Browse recipe</h3>
+          <p>"Search recipes by name or country."</p>
+          <NavLink to="/recipes">All recipes</NavLink>
         </div>
-    );
+
+        <div className={classes.moreDetails}>
+          <h3>Add recipes</h3>
+          <p>"Want to add your own recipe? No worries, add on!"</p>
+          <NavLink to="/addNewRecipe">All recipes</NavLink>
+        </div>
+
+        <div className={classes.moreDetails}>
+          <h3>Browse recipe</h3>
+          <p>"Search recipes by name or country."</p>
+          <a href="https://www.bc.fi" target="_blank" rel="noreferrer">
+            Business College Helsinki hompage
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Home;
