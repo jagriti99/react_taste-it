@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div>
+  <header>
+    <nav
+      className="nav"
+    >
+      <div
+        className="logo"
+      >
+        <a
+          aria-current="page"
+          className="taste active"
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt=""
+          />
+          Taste-it
+        </a>
+      </div>
+      <ul>
+        <li>
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/Recipes"
+            onClick={[Function]}
+          >
+            Recipes
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/AddNewRecipe"
+            onClick={[Function]}
+          >
+            Add New Recipe
+          </a>
+           
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div
+      className="video_container"
+    >
+      <video
+        autoPlay={true}
+        className="video"
+        loop={true}
+        muted={true}
+      >
+        <source
+          src="food.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div
+        className="heading"
+      >
+        <h2>
+          Want to try something new?
+        </h2>
+        <h1>
+          Taste-It
+        </h1>
+        <p>
+          Explore and add recipes
+        </p>
+        <button
+          className="btn"
+        >
+          <a
+            className=""
+            href="/Recipes"
+            onClick={[Function]}
+          >
+            Browse Recipes
+          </a>
+        </button>
+      </div>
+      <div
+        className="container"
+      >
+        <div
+          className="moreDetails"
+        >
+          <h3>
+            Browse recipe
+          </h3>
+          <p>
+            "Search recipes by name or country."
+          </p>
+          <a
+            className=""
+            href="/recipes"
+            onClick={[Function]}
+          >
+            All recipes
+          </a>
+        </div>
+        <div
+          className="moreDetails"
+        >
+          <h3>
+            Add recipes
+          </h3>
+          <p>
+            "Want to add your own recipe? No worries, add on!"
+          </p>
+          <a
+            className=""
+            href="/addNewRecipe"
+            onClick={[Function]}
+          >
+            All recipes
+          </a>
+        </div>
+        <div
+          className="moreDetails"
+        >
+          <h3>
+            Browse recipe
+          </h3>
+          <p>
+            "Search recipes by name or country."
+          </p>
+          <a
+            href="https://www.bc.fi"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Business College Helsinki hompage
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;
